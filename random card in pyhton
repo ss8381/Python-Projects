@@ -1,0 +1,10 @@
+import random 
+shapes=["Heart","Spade","Diamond","club"]
+number=["A","2","3","4","5","6","7","8","9","10","J","Q","K"]
+def rand_card():
+  random_shapes=random.choice(shapes)
+  random_number=random.choice(number)
+  print(f"your card is of shape {random_shapes} and number {random_number}")
+
+rand_card()
+  
